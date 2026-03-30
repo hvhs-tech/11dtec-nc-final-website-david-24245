@@ -66,27 +66,18 @@ h1 {
     }
 }
 
-.ResizeImage {
-    padding: 10px 20px;
-    width: 10px;
-    height: auto; 
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
-
 .container {
   display: grid;
   grid-template-columns: auto auto auto;
   background-color: white;
   padding: 5px;
   gap: 60px;  
+  height: auto;
 }
 
 .container div {
   background-color: #f1f1f1;
   color: #000;
-  padding: 10px;
   font-size: 20px;
   text-align: center;
 }
@@ -99,10 +90,14 @@ h1 {
 
 .container2 div {
   background-color: #f1f1f1;
-  width: 100px;
   margin: 10px;
   padding: 10px;
   text-align: center;  
   font-size: 30px;
+}
+
+.img {
+  display: block;
+  margin-right: 10px;
 }
 
