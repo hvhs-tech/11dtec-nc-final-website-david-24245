@@ -13,18 +13,30 @@ h1 {
     font-size: 20px;
   }
 
-
+ .Home-Icon {
+  width: 25px;
+  height:auto;
+  margin-right:50px;
+ }
   
   nav {
     background-color:lightblue;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+  }
+  
+  .Nav-Links {
+    gap: 20px;
+    display: flex;
+    margin-left: 600px;
   }
 
   .Navbar {
     a:link, a:visited {
       background-color: Lightblue;
       color: black;
-      padding: 20px 20px;
+      padding: 15px 20px;
       text-align: center;
       margin-left: 20px;
       margin-right: 20px;
@@ -33,7 +45,8 @@ h1 {
       transition-duration: 0.4s;
       border: 5px solid lightblue;
       border-radius: 12px;
-    }
+  }
+
 
     a:hover, a:active {
         background-color: rgb(142, 189, 206);
@@ -55,3 +68,4 @@ h1 {
     height: 10px; 
   }
 }
+
