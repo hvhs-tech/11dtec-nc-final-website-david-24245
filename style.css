@@ -95,20 +95,17 @@ h1 {
 .Scroll-Gallary-Border {
   border: 2px solid black;
   margin: 30px 20px;
-  padding: 20px 20px 0px 20px;
+  padding: 20px;
 }
 
 .Scroll-Gallary-Sections {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
-  padding-bottom: 10px;
 }
 
 .Scroll-Gallary-Boxes {
-  min-width: 250px;
   background-color: white;
-  padding: 15px;
-  flex-shrink: 0;
 }
 
 .Scroll-Gallary-Images {
@@ -133,7 +130,7 @@ h1 {
 .Scroll-Gallary-Footer {
   display: flex;
   justify-content: flex-start;
-  margin-top: 8px 0;
+  margin-top: 10px;
   border-top: 1px solid black;
   padding: 8px 0;
 }
