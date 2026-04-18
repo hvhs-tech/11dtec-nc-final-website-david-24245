@@ -94,7 +94,7 @@ h1 {
 
 .Scroll-Gallary-Border {
   border: 2px solid black;
-  margin: 30px 20px;
+  margin: 10px;
   padding: 20px;
 }
 
@@ -104,8 +104,8 @@ h1 {
   gap: 20px;
   overflow-x: auto;
   scroll-behavior: smooth;
-  padding-bottom: 100px;
-  margin-bottom: 10px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
   align-items: stretch;
 }
 
@@ -122,16 +122,27 @@ h1 {
   border-radius: 6px;
 }
 
+.Scroll-Gallary-Sections::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .Scroll-Gallary-Boxes {
-  min-width: 250px;
+  min-width: 450px;
+  width: 450px;
   flex-shrink: 0;
   background-color: white;
   border: 1px solid black;
   padding: 10px;
-  height: 500px;
+  height: 450px;
 }
 
-.Scroll-Gallary-Boxes {
+.Scroll-Gallary-Boxes p {
+  font-family: "Lora", serif;
+  font-size: 14px;
+  margin: 0;
+  overflow: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 
 }
 
