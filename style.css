@@ -93,8 +93,7 @@ h1 {
 }
 
 .Scroll-Gallary-Border {
-  border: 2px solid black;
-  margin: 10px;
+  margin-top: 60px;
   padding: 20px;
 }
 
@@ -109,21 +108,19 @@ h1 {
   align-items: stretch;
 }
 
-.Scroll-Gallary-Sections::-webkit-scrollbar {
-  height: 4px;
-}
+
 
 .Scroll-Gallary-Sections::-webkit-scrollbar-track {
   background: white;
 }
 
 .Scroll-Gallary-Sections::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #888888;
   border-radius: 6px;
 }
 
 .Scroll-Gallary-Sections::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #525151;
 }
 
 .Scroll-Gallary-Boxes {
@@ -131,9 +128,10 @@ h1 {
   width: 450px;
   flex-shrink: 0;
   background-color: white;
-  border: 1px solid black;
   padding: 10px;
   height: 450px;
+  border-right: 1px solid black;
+  margin-bottom: 30px;
 }
 
 .Scroll-Gallary-Boxes p {
@@ -143,7 +141,6 @@ h1 {
   overflow: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-
 }
 
 .Scroll-Gallary-Images {
@@ -183,6 +180,7 @@ h1 {
       color: gray;
   }
 }
+
 .img {
   display: block;
   margin-right: 10px;
