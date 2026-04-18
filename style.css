@@ -137,9 +137,16 @@ h1 {
   font-family: "Lora", serif;
   font-size: 14px;
   margin: 0;
-  overflow: -webkit-box;
+  overflow: hidden;
+  display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+}
+
+.Scroll-Gallery-Boxes h3 {
+  font-family: "Lora", serif;
+  font-size: 18px;
+  margin: 10px 0 5px;
 }
 
 .Scroll-Gallery-Images {
@@ -149,22 +156,9 @@ h1 {
   display: block;
 }
 
-.Scroll-Gallery h3 {
-  font-family: "Lora", serif;
-  font-size: 18px;
-  margin: 10px 0 5px;
-}
-
-.Scroll-Gallery p {
-  font-family: "Lora", serif;
-  font-size: 14px;
-  margin: 0;
-}
-
 .Scroll-Gallery-Footer {
 display: flex;
 justify-content: flex-end;
-margin-end: 8px;
 }
 
 .Scroll-Gallery-Footer1 {
@@ -181,4 +175,50 @@ margin-end: 8px;
 .img {
   display: block;
   margin-right: 10px;
+}
+
+.Footer {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  background-color: white;
+  margin-top: 50px;
+  border-top: 2px solid black;
+}
+
+.About {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.Socials {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.About h3 {
+  font-family: "Lora", serif;
+  font-size: 18px;
+  margin: 0 0 8px 0;
+}
+
+.Socials h3 {
+  font-family: "Lora", serif;
+  font-size: 18px;
+  margin: 0 0 8px 0;
+}
+
+.About p {
+  font-family: "Lora", serif;
+  font-size: 14px;
+  margin: 0;
+}
+
+.Socials a {
+  font-family: "Lora", serif;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
 }
