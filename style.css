@@ -18,6 +18,12 @@ h1 {
   height:auto;
   margin-right:50px;
  }
+
+  .Gallery-Icon {
+  width: 25px;
+  height:auto;
+  margin-right:50px;
+ }
   
   nav {
     background-color:white;
@@ -183,19 +189,20 @@ justify-content: flex-end;
   padding: 40px;
   background-color: white;
   margin-top: 50px;
-  border-top: 2px solid black;
 }
 
 .About {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  margin-left: 100px;
 }
 
 .Socials {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  margin-left: 1400px;
 }
 
 .About h3 {
