@@ -48,28 +48,26 @@ h1 {
     padding: 5px;
   }
 
-  .Navbar {
-    a:link, a:visited {
-      background-color: white;
-      color: black;
-      padding: 15px 20px;
-      text-align: center;
-      margin-left: 20px;
-      margin-right: 20px;
-      text-decoration: none;
-      display: inline-block;
-      transition-duration: 0.4s;
-      border: 5px solid white;
-      border-radius: 12px;
-    }
+.Navbar a:link, .Navbar a:visited {
+  background-color: white;
+  color: black;
+  padding: 15px 20px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  border: 5px solid white;
+  border-radius: 12px;
+}
 
-    a:hover, a:active {
-        background-color: rgb(245, 240, 240);
-        color: white;
-        border: 5px solid rgb(241, 236, 236);
-        border-radius: 12px;
-    }
-  }
+.Navbar a:hover, .Navbar a:active {
+  background-color: rgb(245, 240, 240);
+  color: white;
+  border: 5px solid rgb(241, 236, 236);
+  border-radius: 12px;
+}
 
 .FrontImage {
   width:100%;
@@ -278,7 +276,7 @@ justify-content: flex-end;
 .WonderLocation {
   color: #c8a04a;
   font-family: "Lora", serif;
-  font-family: 14px;
+  font-size: 14px;
 }
 
 .WonderLink {
@@ -313,7 +311,7 @@ justify-content: flex-end;
   top: 50%;
   left: 0;
   right: 0;
-  transform: translate(-50% -50%);
+  transform: translateY(-50%);
   text-align: center;
   color: white;
   width: 50%;
